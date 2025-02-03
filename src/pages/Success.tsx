@@ -12,19 +12,19 @@ function Success(params) {
       </div>
       <div className="mb-5">
         <div className='block mb-2 text-sm text-yellow-500 font-medium text-left'>
-          Creation Date: <span className='text-red-500'>{date.toDateString()}</span>
+          Creation Date: <span className='text-green-500'>{date.toDateString()}</span>
         </div>
         <div className='block mb-2 text-sm text-yellow-500 font-medium text-left'>
-          Namespace: <span className='text-red-500'>{params.username}</span>
+          Namespace: <span className='text-green-500'>{params.username}</span>
         </div>
         <div className='block mb-2 text-sm text-yellow-500 font-medium text-left'>
-          Container Tag: <span className='text-red-500'>{params.containerTag}</span>
+          Container Tag: <span className='text-green-500'>{params.containerTag}</span>
         </div>
         <div className='block mb-2 text-sm text-yellow-500 font-medium text-left'>
-          Mapped Port: <span className='text-red-500'>{params.mappedPort}</span>
+          Mapped Port: <span className='text-green-500'>{params.mappedPort}</span>
         </div>
         <div className='block mb-2 text-sm text-yellow-500 font-medium text-left'>
-          External Port: <span className='text-red-500'>{params.openedPorts}</span>
+          External Port: <span className='text-green-500'>{params.openedPorts}</span>
         </div>
       </div>
     </div>
